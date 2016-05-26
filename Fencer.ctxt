@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=lnm\ fnm\ c\ clb\ nts
+comment0.target=Fencer(java.lang.String,\ java.lang.String,\ Classification,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=Classification\ getClassification()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getClub()
+comment4.params=
+comment4.target=java.lang.String\ getNotes()
+comment5.params=a
+comment5.target=int\ compareTo(Fencer)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=java.lang.String\ s()
+numComments=8

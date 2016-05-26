@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=RndR(Pool)
+comment1.params=
+comment1.target=int\ setType()
+comment2.params=n
+comment2.target=int[][]\ ordering(int)
+comment3.params=type
+comment3.target=Bout[]\ creator(int)
+comment4.params=
+comment4.target=int\ getType()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
