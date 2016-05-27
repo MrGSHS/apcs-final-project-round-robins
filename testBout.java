@@ -1,3 +1,9 @@
+/**
+ * Tests whether or not a test can be run effectively or not
+ * 
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class testBout{
    public static void main(String[] args)

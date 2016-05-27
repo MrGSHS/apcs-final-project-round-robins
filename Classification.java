@@ -1,3 +1,9 @@
+/**
+ * Classification Object: Uses a Char and Int to create a rating
+ * 
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 
 public class Classification implements Comparable<Classification>

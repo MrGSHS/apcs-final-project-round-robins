@@ -1,3 +1,9 @@
+/**
+ * Creates a round robin pool with the needed number of bouts, making sure fencers get breaks and there is a time period between each
+ * 
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class RndR
 {
@@ -190,5 +196,11 @@ public class RndR
             ctr++;
         }
      return x;} 
+        public Bout getBout(int n){
+            return bts[n];
                 
         }
+    public int getNumBouts(){
+            return bts.length;
+                
+        }}

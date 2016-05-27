@@ -1,3 +1,9 @@
+/**
+ * tests whether the fencer class works effectively
+ * 
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class testFencer{
    public static void main(String[] args)

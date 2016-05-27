@@ -1,4 +1,8 @@
-
+/**
+ * Tester for creating and printing a bout
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class testRndR{
    public static void main(String[] args)

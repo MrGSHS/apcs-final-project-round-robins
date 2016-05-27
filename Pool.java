@@ -1,3 +1,9 @@
+/**
+ * Creates a pool with the needed number of bouts, has methods to get the fencers and the ability to get different conflicts and related stuff
+ *  
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class Pool
 {
@@ -139,4 +145,22 @@ public String toString(){
     }
     x+=" )";
 }
-return x;}}
+return x;}
+
+public String toStrRec(){
+    String x="";
+    int ctr=1;
+    ArrayList<String> clubslist;
+    for(Fencer f: pools){
+    x+=""+ctr+". "+f.toString()+ " "+f.recorder() +"\n";
+    ctr++;}
+    if(hasConflicts()){
+    x+="Conflicts: "+conflicts.size()+ " ( " ;
+     clubslist= getCons();
+        for(String c:clubslist){
+            x+=c+"\t";
+    }
+    x+=" )";
+}
+return x;}
+}

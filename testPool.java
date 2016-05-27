@@ -1,3 +1,9 @@
+/**
+ * Class to test whether or not a pool can be run effectively with program
+ * 
+ * @Andrew Jin
+ * @5/26/16
+ */
 import java.util.*;
 public class testPool{
    public static void main(String[] args)

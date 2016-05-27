@@ -13,6 +13,8 @@ public class Fencer implements Comparable<Fencer>
     private String firstName;
     private String club;
     private String notes;
+    private boolean hasRecord=false;
+    private int [] rec={0,0};
     //creates a fencer
     public Fencer( String lnm,String fnm,Classification c, String clb, String nts)
     {
@@ -53,9 +55,25 @@ public class Fencer implements Comparable<Fencer>
     public String toString(){
         return lastName+", "+firstName+" "+rating+" (" + club +")";
    
-}
- public String s(){
+    }
+    public String s(){
         return lastName+", "+firstName+" "+rating+" (" + club +")";
    
-}
+    }
+    //adds a win to the winner's record
+    public void addWin(){
+        rec[0]++;
+        hasRecord=true;
+    }
+    //adds a loss to the loser's record
+    public void addLoss(){
+        rec[1]++;
+        hasRecord=true;
+    }
+    public boolean hasRecord(){
+        return hasRecord;
+    }
+    public String recorder(){
+        return "["+rec[0]+","+rec[1]+"]";
+    }
 }
